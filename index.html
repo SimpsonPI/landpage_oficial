@@ -557,34 +557,82 @@
 <body>
 
     <!-- Header -->
-    <header>
-        <div class="container header-content">
-            <div class="logo">
-                <h1>YR <span>Aprova</span></h1>
+<header>
+    <div class="container header-content">
+        <div class="logo">
+            <h1>YR <span>Aprova</span></h1>
+        </div>
+        <nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
             </div>
-            <nav>
-                <div class="mobile-menu">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#material">Material Gratuito</a></li>
-                    <li><a href="#simulados">Simulados</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-            
-        </div>
-    </header>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#material">Material Gratuito</a></li>
+                <li><a href="#simulados">Simulados</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="container">
-            <h2>Seu sucesso é questão de preparo</h2>
-            <p>Preparatório de qualidade para conquistar a aprovação no CNU e outros concursos públicos</p>
-            
-        </div>
-    </section>
+<!-- Slogan Section -->
+<section class="hero" id="home">
+    <div class="container">
+        <h2>Seu sucesso é questão de preparo</h2>
+        <p>Preparatório de qualidade para conquistar a aprovação no CNU e outros concursos públicos</p>
+    </div>
+</section>
+
+<!-- Vídeo Section -->
+<section class="video-section">
+    <div class="container">
+        <h2 class="section-title">Assista ao nosso vídeo</h2>
+        <video class="promo-video" controls poster="capasimulado.png">
+            <source src="video.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeos.
+        </video>
+    </div>
+</section>
+
+<style>
+/* Ajuste da altura e espaçamento */
+.hero {
+    background: linear-gradient(135deg, var(--primary) 0%, #4A6B8A 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.video-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.video-section h2 {
+    margin-bottom: 25px;
+    color: var(--primary);
+}
+
+.promo-video {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+</style>
 
     <!-- Free Material Section -->
     <section class="free-material" id="material">
@@ -681,13 +729,7 @@
                     <p>Para um treinamento completo</p>
                     <div class="price">R$ 19,90</div>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKj_Bhp36bzYojRjIy8YTmAyc1J3wNmNCSpWYM6eugIVbnSw/viewform?usp=sharing&ouid=105595595183941371712" class="cta-button">Solicitar este pacote</a>
-                </div>
-                <div class="package-item">
-                    <h3>Pacote 100 Questões</h3>
-                    <p>Para um treinamento máximo</p>
-                    <div class="price">R$ 24,90</div>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKj_Bhp36bzYojRjIy8YTmAyc1J3wNmNCSpWYM6eugIVbnSw/viewform?usp=sharing&ouid=105595595183941371712" class="cta-button">Solicitar este pacote</a>
-                </div>
+                </div>               
             </div>
         </div>
     </section>
